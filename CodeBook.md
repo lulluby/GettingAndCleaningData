@@ -6,72 +6,72 @@ Features are normalized and bounded within [-1,1].
 
 ###For each record it is provided:
 
-- tBodyAcc.std...X - standard deviation of time domain of body acceleration signal by X axis
-- tBodyAcc.std...Y - standard deviation of time domain of body acceleration signal by Y axis
-- tBodyAcc.std...Z - standard deviation of time domain of body acceleration signal by Z axis
-- tGravityAcc.std...X - standard deviation of time domain of gravity acceleration signal by X axis
-- tGravityAcc.std...Y - standard deviation of time domain of gravity acceleration signal by Y axis
-- tGravityAcc.std...Z - standard deviation of time domain of gravity acceleration signal by Z axis
-- tBodyAccJerk.std...X - standard deviation of time domain of body jerk signal by X axis
-- tBodyAccJerk.std...Y - standard deviation of time domain of body jerk signal by Y axis
-- tBodyAccJerk.std...Z - standard deviation of time domain of body jerk signal by Z axis
-- tBodyGyro.std...X - standard deviation of time domain of body orientation changes by X axis
-- tBodyGyro.std...Y - standard deviation of time domain of body orientation changes by X axis
-- tBodyGyro.std...Z - standard deviation of time domain of body orientation changes by X axis
-- tBodyGyroJerk.std...X - standard deviation of time domain of body orientation changes jerk by X axis
-- tBodyGyroJerk.std...Y - standard deviation of time domain of body orientation changes jerk by Y axis
-- tBodyGyroJerk.std...Z - standard deviation of time domain of body orientation changes jerk by Z axis
-- tBodyAccMag.std.. - standard deviation of magnitude of time domain of body acceleration signal
-- tGravityAccMag.std.. - standard deviation of magnitude of time domain of gravity acceleration signal
-- tBodyAccJerkMag.std.. - standard deviation of magnitude of time domain of body acceleration jerk signal
-- tBodyGyroMag.std.. - standard deviation of magnitude of time domain of body orientation changes
-- tBodyGyroJerkMag.std.. - standard deviation of magnitude of time domain of body orientation changes jerk
-- fBodyAcc.std...X - standard deviation of frequency domain of body acceleration signal by X axis
-- fBodyAcc.std...Y - standard deviation of frequency domain of body acceleration signal by Y axis
-- fBodyAcc.std...Z - standard deviation of frequency domain of body acceleration signal by Z axis
-- fBodyAccJerk.std...X - standard deviation of frequency domain of body acceleration jerk signal by X axis
-- fBodyAccJerk.std...Y - standard deviation of frequency domain of body acceleration jerk signal by Y axis
-- fBodyAccJerk.std...Z - standard deviation of frequency domain of body acceleration jerk signal by Z axis
-- fBodyGyro.std...X - standard deviation of frequency domain of body orientation changes by X axis
-- fBodyGyro.std...Y - standard deviation of frequency domain of body orientation changes by X axis
-- fBodyGyro.std...Z - standard deviation of frequency domain of body orientation changes by X axis
-- fBodyAccMag.std.. - standard deviation of magnitude of frequency domain of body acceleration signal
-- fBodyBodyAccJerkMag.std.. - standard deviation of magnitude of frequency domain of body acceleration jerk signal
-- fBodyBodyGyroMag.std.. - standard deviation of magnitude of frequency domain of body orientation changes
-- fBodyBodyGyroJerkMag.std.. - standard deviation of magnitude of frequency domain of body orientation changes jerk
-- tBodyAcc.mean...X - average value of time domain of body acceleration signal by X axis
-- tBodyAcc.mean...Y - average value of time domain of body acceleration signal by Y axis
-- tBodyAcc.mean...Z - average value of time domain of body acceleration signal by Z axis
-- tGravityAcc.mean...X - average value of time domain of gravity acceleration signal by X axis
-- tGravityAcc.mean...Y - average value of time domain of gravity acceleration signal by Y axis
-- tGravityAcc.mean...Z - average value of time domain of gravity acceleration signal by Z axis
-- tBodyAccJerk.mean...X - average value of time domain of body acceleration jerk signal by X axis
-- tBodyAccJerk.mean...Y - average value of time domain of body acceleration jerk signal by Y axis
-- tBodyAccJerk.mean...Z - average value of time domain of body acceleration jerk signal by Z axis
-- tBodyGyro.mean...X - average value of time domain of body orientation changes by X axis
-- tBodyGyro.mean...Y - average value of time domain of body orientation changes by Y axis
-- tBodyGyro.mean...Z - average value of time domain of body orientation changes by Z axis
-- tBodyGyroJerk.mean...X - average value of time domain of body orientation changes jerk by X axis
-- tBodyGyroJerk.mean...Y - average value of time domain of body orientation changes jerk by Y axis
-- tBodyGyroJerk.mean...Z - average value of time domain of body orientation changes jerk by Z axis
-- tBodyAccMag.mean.. - average value of magnitude of time domain of body acceleration signal
-- tGravityAccMag.mean.. - average value of magnitude of time domain of gravity acceleration signal
-- tBodyAccJerkMag.mean.. - average value of magnitude of time domain of body acceleration jerk signal
-- tBodyGyroMag.mean.. - average value of magnitude of time domain of body orientation changes
-- tBodyGyroJerkMag.mean.. - average value of magnitude of time domain of body orientation changes jerk
-- fBodyAcc.mean...X - average value of frequency domain of body acceleration signal by X axis
-- fBodyAcc.mean...Y - average value of frequency domain of body acceleration signal by Y axis
-- fBodyAcc.mean...Z - average value of frequency domain of body acceleration signal by Z axis
-- fBodyAccJerk.mean...X - average value of frequency domain of body acceleration jerk signal by X axis
-- fBodyAccJerk.mean...Y - average value of frequency domain of body acceleration jerk signal by Y axis
-- fBodyAccJerk.mean...Z - average value of frequency domain of body acceleration jerk signal by Z axis
-- fBodyGyro.mean...X - average value of frequency domain of body orientation changes by X axis
-- fBodyGyro.mean...Y - average value of frequency domain of body orientation changes by Y axis
-- fBodyGyro.mean...Z - average value of frequency domain of body orientation changes by Z axis
-- fBodyAccMag.mean.. - average value of magnitude of frequency domain of body acceleration signal
-- fBodyBodyAccJerkMag.mean.. - average value of magnitude of frequency domain of body acceleration jerk signal
-- fBodyBodyGyroMag.mean.. - average value of magnitude of frequency domain of body orientation changes
-- fBodyBodyGyroJerkMag.mean.. - average value of magnitude of frequency domain of body orientation changes jerk
+- tbodyaccstdx - standard deviation of time domain of body acceleration signal by X axis
+- tbodyaccstdy - standard deviation of time domain of body acceleration signal by Y axis
+- tbodyaccstdz - standard deviation of time domain of body acceleration signal by Z axis
+- tgravityaccstdx - standard deviation of time domain of gravity acceleration signal by X axis
+- tgravityaccstdy - standard deviation of time domain of gravity acceleration signal by Y axis
+- tgravityaccstdz - standard deviation of time domain of gravity acceleration signal by Z axis
+- tbodyaccjerkstdx - standard deviation of time domain of body jerk signal by X axis
+- tbodyaccjerkstdy - standard deviation of time domain of body jerk signal by Y axis
+- tbodyaccjerkstdz - standard deviation of time domain of body jerk signal by Z axis
+- tbodygyrostdx - standard deviation of time domain of body orientation changes by X axis
+- tbodygyrostdy - standard deviation of time domain of body orientation changes by X axis
+- tbodygyrostdz - standard deviation of time domain of body orientation changes by X axis
+- tbodygyrojerkstdx - standard deviation of time domain of body orientation changes jerk by X axis
+- tbodygyrojerkstdy - standard deviation of time domain of body orientation changes jerk by Y axis
+- tbodygyrojerkstdz - standard deviation of time domain of body orientation changes jerk by Z axis
+- tbodyaccmagstd - standard deviation of magnitude of time domain of body acceleration signal
+- tgravityaccmagstd - standard deviation of magnitude of time domain of gravity acceleration signal
+- tbodyaccjerkmagstd - standard deviation of magnitude of time domain of body acceleration jerk signal
+- tbodygyromagstd - standard deviation of magnitude of time domain of body orientation changes
+- tbodygyrojerkmagstd - standard deviation of magnitude of time domain of body orientation changes jerk
+- fbodyaccstdx - standard deviation of frequency domain of body acceleration signal by X axis
+- fbodyaccstdy - standard deviation of frequency domain of body acceleration signal by Y axis
+- fbodyaccstdz - standard deviation of frequency domain of body acceleration signal by Z axis
+- fbodyaccjerkstdx - standard deviation of frequency domain of body acceleration jerk signal by X axis
+- fbodyaccjerkstdy - standard deviation of frequency domain of body acceleration jerk signal by Y axis
+- fbodyaccjerkstdz - standard deviation of frequency domain of body acceleration jerk signal by Z axis
+- fbodygyrostdx - standard deviation of frequency domain of body orientation changes by X axis
+- fbodygyrostdy - standard deviation of frequency domain of body orientation changes by X axis
+- fbodygyrostdz - standard deviation of frequency domain of body orientation changes by X axis
+- fbodyaccmagstd - standard deviation of magnitude of frequency domain of body acceleration signal
+- fbodybodyaccjerkmagstd - standard deviation of magnitude of frequency domain of body acceleration jerk signal
+- fbodybodygyromagstd - standard deviation of magnitude of frequency domain of body orientation changes
+- fbodybodygyrojerkmagstd - standard deviation of magnitude of frequency domain of body orientation changes jerk
+- tbodyaccmeanx - average value of time domain of body acceleration signal by X axis
+- tbodyaccmeany - average value of time domain of body acceleration signal by Y axis
+- tbodyaccmeanz - average value of time domain of body acceleration signal by Z axis
+- tgravityaccmeanx - average value of time domain of gravity acceleration signal by X axis
+- tgravityaccmeany - average value of time domain of gravity acceleration signal by Y axis
+- tgravityaccmeanz - average value of time domain of gravity acceleration signal by Z axis
+- tbodyaccjerkmeanx - average value of time domain of body acceleration jerk signal by X axis
+- tbodyaccjerkmeany - average value of time domain of body acceleration jerk signal by Y axis
+- tbodyaccjerkmeanz - average value of time domain of body acceleration jerk signal by Z axis
+- tbodygyromeanx - average value of time domain of body orientation changes by X axis
+- tbodygyromeany - average value of time domain of body orientation changes by Y axis
+- tbodygyromeanz - average value of time domain of body orientation changes by Z axis
+- tbodygyrojerkmeanx - average value of time domain of body orientation changes jerk by X axis
+- tbodygyrojerkmeany - average value of time domain of body orientation changes jerk by Y axis
+- tbodygyrojerkmeanz - average value of time domain of body orientation changes jerk by Z axis
+- tbodyaccmagmean - average value of magnitude of time domain of body acceleration signal
+- tgravityaccmagmean - average value of magnitude of time domain of gravity acceleration signal
+- tbodyaccjerkmagmean - average value of magnitude of time domain of body acceleration jerk signal
+- tbodygyromagmean - average value of magnitude of time domain of body orientation changes
+- tbodygyrojerkmagmean - average value of magnitude of time domain of body orientation changes jerk
+- fbodyaccmeanx - average value of frequency domain of body acceleration signal by X axis
+- fbodyaccmeany - average value of frequency domain of body acceleration signal by Y axis
+- fbodyaccmeanz - average value of frequency domain of body acceleration signal by Z axis
+- fbodyaccjerkmeanx - average value of frequency domain of body acceleration jerk signal by X axis
+- fbodyaccjerkmeany - average value of frequency domain of body acceleration jerk signal by Y axis
+- fbodyaccjerkmeanz - average value of frequency domain of body acceleration jerk signal by Z axis
+- fbodygyromeanx - average value of frequency domain of body orientation changes by X axis
+- fbodygyromeany - average value of frequency domain of body orientation changes by Y axis
+- fbodygyromeanz - average value of frequency domain of body orientation changes by Z axis
+- fbodyaccmagmean - average value of magnitude of frequency domain of body acceleration signal
+- fbodybodyaccjerkmagmean - average value of magnitude of frequency domain of body acceleration jerk signal
+- fbodybodygyromagmean - average value of magnitude of frequency domain of body orientation changes
+- fbodybodygyrojerkmagmean - average value of magnitude of frequency domain of body orientation changes jerk
 - activity - activity performed while signals were measured
 - subject - subject recorded measurements
 

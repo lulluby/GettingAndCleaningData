@@ -24,6 +24,7 @@ main <- function() {
     write.csv(merged,"result.txt", row.names=F)
     
     avgDS <- getAvgData(merged)
+    avgDS
 }
 
 getFullDataSet <- function (setname, features, featuresneeded) {
@@ -32,8 +33,15 @@ getFullDataSet <- function (setname, features, featuresneeded) {
     subj <- read.table(sprintf("%s\\subject_%s.txt", setname, setname)) 
     activity <- read.table(sprintf("%s\\y_%s.txt", setname, setname))
     
-	#reading features dataset
+    #reading features dataset
     ds <- read.table(sprintf("%s\\X_%s.txt", setname, setname), col.names=features[,2])
+    
+    #removes . from column names
+    splitNames <- strsplit(names(ds), "\\.")
+    colnames <- sapply(splitNames, function(x) { 
+        paste(x, collapse = "")
+    })
+    names(ds) <- tolower(colnames)
     
 	#extracting only needed (std and mean values) features from full dataset
     ds <- ds[,featuresneeded]
@@ -47,5 +55,6 @@ getFullDataSet <- function (setname, features, featuresneeded) {
 }
 
 getAvgData <- function(initialDataset) {
-    
+    ag <- aggregate(initialDataset[,1:66],list(activity=initialDataset$activity,subject=initialDataset$subject),mean)
+    ag
 }
