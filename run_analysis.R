@@ -1,4 +1,4 @@
-#main <- function() {
+main <- function() {
     features <- read.table("features.txt")
     
     featuresstd <- grep("std()", features[,2], fixed=T)
@@ -24,7 +24,7 @@
     write.csv(merged,"result.txt", row.names=F)
     
     avgDS <- getAvgData(merged)
-#}
+}
 
 getFullDataSet <- function (setname, features, featuresneeded) {
 
